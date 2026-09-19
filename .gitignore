@@ -1,0 +1,23 @@
+# OS / editor
+.DS_Store
+*.swp
+*~
+
+# Backend
+backend/tmp/
+backend/log/
+backend/storage/
+backend/vendor/bundle/
+backend/.bundle/
+backend/db/*.sqlite3
+backend/db/*.sqlite3-*
+backend/config/master.key
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+
+# Misc
+*.log
+.env
