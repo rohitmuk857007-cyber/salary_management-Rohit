@@ -1,0 +1,2 @@
+employee_code,first_name,last_name,email,country,department,hire_date,status,salary_amount_cents,currency,salary_effective_from,salary_reason
+ACM999001,Demo,Import,demo.import@acme.example,US,Engineering,2024-01-10,active,9500000,USD,2024-01-10,Import hire
