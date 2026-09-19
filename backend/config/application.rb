@@ -20,6 +20,6 @@ module Backend
     # Session cookies for SPA auth (CORS + credentials)
     config.session_store :cookie_store, key: "_acme_salary_session", same_site: :lax
     config.middleware.use ActionDispatch::Cookies
-    config.middleware.use config.session_store, config.session_options
+    config.middleware.use ActionDispatch::Session::CookieStore, key: "_acme_salary_session", same_site: :lax
   end
 end

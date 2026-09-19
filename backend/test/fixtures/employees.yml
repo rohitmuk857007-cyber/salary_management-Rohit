@@ -1,21 +1,29 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+alice:
+  employee_code: ACM000001
+  first_name: Alice
+  last_name: Anderson
+  email: alice@acme.example
+  country: US
+  department: Engineering
+  hire_date: 2020-01-15
+  status: active
 
-one:
-  employee_code: MyString
-  first_name: MyString
-  last_name: MyString
-  email: MyString
-  country: MyString
-  department: MyString
-  hire_date: 2026-09-19
-  status: MyString
+bob:
+  employee_code: ACM000002
+  first_name: Bob
+  last_name: Baker
+  email: bob@acme.example
+  country: IN
+  department: Sales
+  hire_date: 2019-06-01
+  status: active
 
-two:
-  employee_code: MyString
-  first_name: MyString
-  last_name: MyString
-  email: MyString
-  country: MyString
-  department: MyString
-  hire_date: 2026-09-19
-  status: MyString
+carol:
+  employee_code: ACM000003
+  first_name: Carol
+  last_name: Clark
+  email: carol@acme.example
+  country: GB
+  department: Finance
+  hire_date: 2021-03-10
+  status: inactive

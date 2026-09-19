@@ -1,17 +1,23 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+alice_old:
+  employee: alice
+  amount_cents: 9000000
+  currency: USD
+  effective_from: 2020-01-15
+  effective_to: 2022-12-31
+  reason: Initial
 
-one:
-  employee: one
-  amount_cents: 1
-  currency: MyString
-  effective_from: 2026-09-19
-  effective_to: 2026-09-19
-  reason: MyString
+alice_current:
+  employee: alice
+  amount_cents: 12000000
+  currency: USD
+  effective_from: 2023-01-01
+  effective_to:
+  reason: Promotion
 
-two:
-  employee: two
-  amount_cents: 1
-  currency: MyString
-  effective_from: 2026-09-19
-  effective_to: 2026-09-19
-  reason: MyString
+bob_current:
+  employee: bob
+  amount_cents: 150000000
+  currency: INR
+  effective_from: 2019-06-01
+  effective_to:
+  reason: Initial
